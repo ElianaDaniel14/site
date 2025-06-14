@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  
+  color: white; 
+}
+
+header {
+  color: white;
+  text-align: center;
+}
+
+.services {
+  padding: 40px 20px;
+  text-align: center;
+  display: flex;
+   justify-content: none;
+}
+
+.service-box {
+  margin: 250px auto;
+  width: 300px;
+  height: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgba(255, 0, 0, 0.39);
+  border-radius: 8px;
+}
+
+.contact {
+  text-align: center;
+}
+.service-titre{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 150px;
+}
+.img1{
+    margin-right: 0px;
+}
+li{
+    list-style-type: none;
+    ;
+    margin-top: 0px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+.contact-title{
+    
+    margin-top: -150px;
+    text-align: left;
+    font-size: 24px;
+    color: #333;
+}
+nav{
+  display: flex;
+  margin-left: 700px;
+  justify-content: space-between;
+  
+}
+.logo{
+  width: 100px;
+  height: 100px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  filter: drop-shadow(1px 1px 20px white);
+  position: absolute;
+  left: 5px;
+
+}
+.active{
+  border: 1px 5px solid red;
+}
+.hero-image {
+  max-width: 400px;
+  height: auto;
+  border-radius: 40px;
+  position: absolute;
+  left: 830px;
+  top: 150px;
+  filter: drop-shadow(1px 1px 20px white);
+}
+.hero-content{
+  color: white;
+}
